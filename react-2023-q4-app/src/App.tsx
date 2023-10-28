@@ -1,11 +1,5 @@
-import { HelloWorld } from '@/components';
-
 function App() {
-  return (
-    <>
-      <HelloWorld />
-    </>
-  );
+  return <></>;
 }
 
 export default App;

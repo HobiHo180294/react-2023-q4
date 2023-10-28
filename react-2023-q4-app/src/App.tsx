@@ -1,7 +1,11 @@
-console.log('Hello');
+import { HelloWorld } from '@/components';
 
 function App() {
-  return <>Hello World</>;
+  return (
+    <>
+      <HelloWorld />
+    </>
+  );
 }
 
 export default App;

@@ -1,0 +1,47 @@
+@import '@/styles/palette.scss';
+
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: $alabaster;
+
+  &__body {
+    background-color: $pomegranate;
+    color: $white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.2rem 0.4rem $translucent-black;
+    text-align: center;
+    width: 30rem;
+  }
+
+  &__title {
+    font-size: 2.4rem;
+    margin: 1rem 0;
+  }
+
+  &__message {
+    font-size: 1.8rem;
+  }
+
+  &__reload {
+    display: block;
+    background-color: $orange;
+    border: none;
+    outline: none;
+    color: $white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    margin: 1rem auto;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: $cinnabar;
+    }
+  }
+}
